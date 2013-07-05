@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030CB9FA17873DA0002E6A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB9F917873DA0002E6A3A /* UIKit.framework */; };
+		030CB9FC17873DA0002E6A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB9FB17873DA0002E6A3A /* Foundation.framework */; };
+		030CB9FE17873DA0002E6A3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB9FD17873DA0002E6A3A /* CoreGraphics.framework */; };
+		030CBA0417873DA0002E6A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA0217873DA0002E6A3A /* InfoPlist.strings */; };
+		030CBA0617873DA1002E6A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030CBA0517873DA1002E6A3A /* main.m */; };
+		030CBA0A17873DA1002E6A3A /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030CBA0917873DA1002E6A3A /* JSAppDelegate.m */; };
+		030CBA0C17873DA1002E6A3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA0B17873DA1002E6A3A /* Default.png */; };
+		030CBA0E17873DA1002E6A3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA0D17873DA1002E6A3A /* Default@2x.png */; };
+		030CBA1017873DA1002E6A3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA0F17873DA1002E6A3A /* Default-568h@2x.png */; };
+		030CBA1317873DA1002E6A3A /* JSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030CBA1217873DA1002E6A3A /* JSFirstViewController.m */; };
+		030CBA1517873DA1002E6A3A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA1417873DA1002E6A3A /* first.png */; };
+		030CBA1717873DA1002E6A3A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA1617873DA1002E6A3A /* first@2x.png */; };
+		030CBA1A17873DA1002E6A3A /* JSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030CBA1917873DA1002E6A3A /* JSSecondViewController.m */; };
+		030CBA1C17873DA1002E6A3A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA1B17873DA1002E6A3A /* second.png */; };
+		030CBA1E17873DA1002E6A3A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA1D17873DA1002E6A3A /* second@2x.png */; };
+		030CBA2117873DA1002E6A3A /* JSFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA1F17873DA1002E6A3A /* JSFirstViewController_iPhone.xib */; };
+		030CBA2417873DA1002E6A3A /* JSFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA2217873DA1002E6A3A /* JSFirstViewController_iPad.xib */; };
+		030CBA2717873DA1002E6A3A /* JSSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA2517873DA1002E6A3A /* JSSecondViewController_iPhone.xib */; };
+		030CBA2A17873DA1002E6A3A /* JSSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA2817873DA1002E6A3A /* JSSecondViewController_iPad.xib */; };
+		030CBA3217873DA1002E6A3A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CBA3117873DA1002E6A3A /* SenTestingKit.framework */; };
+		030CBA3317873DA1002E6A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB9F917873DA0002E6A3A /* UIKit.framework */; };
+		030CBA3417873DA1002E6A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB9FB17873DA0002E6A3A /* Foundation.framework */; };
+		030CBA3C17873DA1002E6A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA3A17873DA1002E6A3A /* InfoPlist.strings */; };
+		030CBA3F17873DA1002E6A3A /* PoppingFreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030CBA3E17873DA1002E6A3A /* PoppingFreshTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030CBA3517873DA1002E6A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030CB9EE17873DA0002E6A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030CB9F517873DA0002E6A3A;
+			remoteInfo = PoppingFresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030CB9F617873DA0002E6A3A /* PoppingFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoppingFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030CB9F917873DA0002E6A3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		030CB9FB17873DA0002E6A3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		030CB9FD17873DA0002E6A3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		030CBA0117873DA0002E6A3A /* PoppingFresh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoppingFresh-Info.plist"; sourceTree = "<group>"; };
+		030CBA0317873DA0002E6A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		030CBA0517873DA1002E6A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030CBA0717873DA1002E6A3A /* PoppingFresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoppingFresh-Prefix.pch"; sourceTree = "<group>"; };
+		030CBA0817873DA1002E6A3A /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		030CBA0917873DA1002E6A3A /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		030CBA0B17873DA1002E6A3A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		030CBA0D17873DA1002E6A3A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		030CBA0F17873DA1002E6A3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		030CBA1117873DA1002E6A3A /* JSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSFirstViewController.h; sourceTree = "<group>"; };
+		030CBA1217873DA1002E6A3A /* JSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSFirstViewController.m; sourceTree = "<group>"; };
+		030CBA1417873DA1002E6A3A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		030CBA1617873DA1002E6A3A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		030CBA1817873DA1002E6A3A /* JSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSSecondViewController.h; sourceTree = "<group>"; };
+		030CBA1917873DA1002E6A3A /* JSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSecondViewController.m; sourceTree = "<group>"; };
+		030CBA1B17873DA1002E6A3A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		030CBA1D17873DA1002E6A3A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		030CBA2017873DA1002E6A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		030CBA2317873DA1002E6A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSFirstViewController_iPad.xib; sourceTree = "<group>"; };
+		030CBA2617873DA1002E6A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSSecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		030CBA2917873DA1002E6A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		030CBA3017873DA1002E6A3A /* PoppingFreshTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoppingFreshTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030CBA3117873DA1002E6A3A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		030CBA3917873DA1002E6A3A /* PoppingFreshTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoppingFreshTests-Info.plist"; sourceTree = "<group>"; };
+		030CBA3B17873DA1002E6A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		030CBA3D17873DA1002E6A3A /* PoppingFreshTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoppingFreshTests.h; sourceTree = "<group>"; };
+		030CBA3E17873DA1002E6A3A /* PoppingFreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoppingFreshTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030CB9F317873DA0002E6A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CB9FA17873DA0002E6A3A /* UIKit.framework in Frameworks */,
+				030CB9FC17873DA0002E6A3A /* Foundation.framework in Frameworks */,
+				030CB9FE17873DA0002E6A3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CBA2C17873DA1002E6A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CBA3217873DA1002E6A3A /* SenTestingKit.framework in Frameworks */,
+				030CBA3317873DA1002E6A3A /* UIKit.framework in Frameworks */,
+				030CBA3417873DA1002E6A3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030CB9ED17873DA0002E6A3A = {
+			isa = PBXGroup;
+			children = (
+				030CB9FF17873DA0002E6A3A /* PoppingFresh */,
+				030CBA3717873DA1002E6A3A /* PoppingFreshTests */,
+				030CB9F817873DA0002E6A3A /* Frameworks */,
+				030CB9F717873DA0002E6A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030CB9F717873DA0002E6A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030CB9F617873DA0002E6A3A /* PoppingFresh.app */,
+				030CBA3017873DA1002E6A3A /* PoppingFreshTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030CB9F817873DA0002E6A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030CB9F917873DA0002E6A3A /* UIKit.framework */,
+				030CB9FB17873DA0002E6A3A /* Foundation.framework */,
+				030CB9FD17873DA0002E6A3A /* CoreGraphics.framework */,
+				030CBA3117873DA1002E6A3A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		030CB9FF17873DA0002E6A3A /* PoppingFresh */ = {
+			isa = PBXGroup;
+			children = (
+				030CBA0817873DA1002E6A3A /* JSAppDelegate.h */,
+				030CBA0917873DA1002E6A3A /* JSAppDelegate.m */,
+				030CBA1117873DA1002E6A3A /* JSFirstViewController.h */,
+				030CBA1217873DA1002E6A3A /* JSFirstViewController.m */,
+				030CBA1417873DA1002E6A3A /* first.png */,
+				030CBA1617873DA1002E6A3A /* first@2x.png */,
+				030CBA1817873DA1002E6A3A /* JSSecondViewController.h */,
+				030CBA1917873DA1002E6A3A /* JSSecondViewController.m */,
+				030CBA1B17873DA1002E6A3A /* second.png */,
+				030CBA1D17873DA1002E6A3A /* second@2x.png */,
+				030CBA1F17873DA1002E6A3A /* JSFirstViewController_iPhone.xib */,
+				030CBA2217873DA1002E6A3A /* JSFirstViewController_iPad.xib */,
+				030CBA2517873DA1002E6A3A /* JSSecondViewController_iPhone.xib */,
+				030CBA2817873DA1002E6A3A /* JSSecondViewController_iPad.xib */,
+				030CBA0017873DA0002E6A3A /* Supporting Files */,
+			);
+			path = PoppingFresh;
+			sourceTree = "<group>";
+		};
+		030CBA0017873DA0002E6A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030CBA0117873DA0002E6A3A /* PoppingFresh-Info.plist */,
+				030CBA0217873DA0002E6A3A /* InfoPlist.strings */,
+				030CBA0517873DA1002E6A3A /* main.m */,
+				030CBA0717873DA1002E6A3A /* PoppingFresh-Prefix.pch */,
+				030CBA0B17873DA1002E6A3A /* Default.png */,
+				030CBA0D17873DA1002E6A3A /* Default@2x.png */,
+				030CBA0F17873DA1002E6A3A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		030CBA3717873DA1002E6A3A /* PoppingFreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				030CBA3D17873DA1002E6A3A /* PoppingFreshTests.h */,
+				030CBA3E17873DA1002E6A3A /* PoppingFreshTests.m */,
+				030CBA3817873DA1002E6A3A /* Supporting Files */,
+			);
+			path = PoppingFreshTests;
+			sourceTree = "<group>";
+		};
+		030CBA3817873DA1002E6A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030CBA3917873DA1002E6A3A /* PoppingFreshTests-Info.plist */,
+				030CBA3A17873DA1002E6A3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030CB9F517873DA0002E6A3A /* PoppingFresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030CBA4217873DA1002E6A3A /* Build configuration list for PBXNativeTarget "PoppingFresh" */;
+			buildPhases = (
+				030CB9F217873DA0002E6A3A /* Sources */,
+				030CB9F317873DA0002E6A3A /* Frameworks */,
+				030CB9F417873DA0002E6A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoppingFresh;
+			productName = PoppingFresh;
+			productReference = 030CB9F617873DA0002E6A3A /* PoppingFresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030CBA2F17873DA1002E6A3A /* PoppingFreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030CBA4517873DA1002E6A3A /* Build configuration list for PBXNativeTarget "PoppingFreshTests" */;
+			buildPhases = (
+				030CBA2B17873DA1002E6A3A /* Sources */,
+				030CBA2C17873DA1002E6A3A /* Frameworks */,
+				030CBA2D17873DA1002E6A3A /* Resources */,
+				030CBA2E17873DA1002E6A3A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030CBA3617873DA1002E6A3A /* PBXTargetDependency */,
+			);
+			name = PoppingFreshTests;
+			productName = PoppingFreshTests;
+			productReference = 030CBA3017873DA1002E6A3A /* PoppingFreshTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030CB9EE17873DA0002E6A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "josef salyer";
+			};
+			buildConfigurationList = 030CB9F117873DA0002E6A3A /* Build configuration list for PBXProject "PoppingFresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 030CB9ED17873DA0002E6A3A;
+			productRefGroup = 030CB9F717873DA0002E6A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030CB9F517873DA0002E6A3A /* PoppingFresh */,
+				030CBA2F17873DA1002E6A3A /* PoppingFreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030CB9F417873DA0002E6A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CBA0417873DA0002E6A3A /* InfoPlist.strings in Resources */,
+				030CBA0C17873DA1002E6A3A /* Default.png in Resources */,
+				030CBA0E17873DA1002E6A3A /* Default@2x.png in Resources */,
+				030CBA1017873DA1002E6A3A /* Default-568h@2x.png in Resources */,
+				030CBA1517873DA1002E6A3A /* first.png in Resources */,
+				030CBA1717873DA1002E6A3A /* first@2x.png in Resources */,
+				030CBA1C17873DA1002E6A3A /* second.png in Resources */,
+				030CBA1E17873DA1002E6A3A /* second@2x.png in Resources */,
+				030CBA2117873DA1002E6A3A /* JSFirstViewController_iPhone.xib in Resources */,
+				030CBA2417873DA1002E6A3A /* JSFirstViewController_iPad.xib in Resources */,
+				030CBA2717873DA1002E6A3A /* JSSecondViewController_iPhone.xib in Resources */,
+				030CBA2A17873DA1002E6A3A /* JSSecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CBA2D17873DA1002E6A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CBA3C17873DA1002E6A3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030CBA2E17873DA1002E6A3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030CB9F217873DA0002E6A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CBA0617873DA1002E6A3A /* main.m in Sources */,
+				030CBA0A17873DA1002E6A3A /* JSAppDelegate.m in Sources */,
+				030CBA1317873DA1002E6A3A /* JSFirstViewController.m in Sources */,
+				030CBA1A17873DA1002E6A3A /* JSSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030CBA2B17873DA1002E6A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030CBA3F17873DA1002E6A3A /* PoppingFreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030CBA3617873DA1002E6A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030CB9F517873DA0002E6A3A /* PoppingFresh */;
+			targetProxy = 030CBA3517873DA1002E6A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030CBA0217873DA0002E6A3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CBA0317873DA0002E6A3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		030CBA1F17873DA1002E6A3A /* JSFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CBA2017873DA1002E6A3A /* en */,
+			);
+			name = JSFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		030CBA2217873DA1002E6A3A /* JSFirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CBA2317873DA1002E6A3A /* en */,
+			);
+			name = JSFirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		030CBA2517873DA1002E6A3A /* JSSecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CBA2617873DA1002E6A3A /* en */,
+			);
+			name = JSSecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		030CBA2817873DA1002E6A3A /* JSSecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CBA2917873DA1002E6A3A /* en */,
+			);
+			name = JSSecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		030CBA3A17873DA1002E6A3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030CBA3B17873DA1002E6A3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030CBA4017873DA1002E6A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030CBA4117873DA1002E6A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030CBA4317873DA1002E6A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoppingFresh/PoppingFresh-Prefix.pch";
+				INFOPLIST_FILE = "PoppingFresh/PoppingFresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		030CBA4417873DA1002E6A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoppingFresh/PoppingFresh-Prefix.pch";
+				INFOPLIST_FILE = "PoppingFresh/PoppingFresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		030CBA4617873DA1002E6A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoppingFresh.app/PoppingFresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoppingFresh/PoppingFresh-Prefix.pch";
+				INFOPLIST_FILE = "PoppingFreshTests/PoppingFreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		030CBA4717873DA1002E6A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoppingFresh.app/PoppingFresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoppingFresh/PoppingFresh-Prefix.pch";
+				INFOPLIST_FILE = "PoppingFreshTests/PoppingFreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030CB9F117873DA0002E6A3A /* Build configuration list for PBXProject "PoppingFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030CBA4017873DA1002E6A3A /* Debug */,
+				030CBA4117873DA1002E6A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030CBA4217873DA1002E6A3A /* Build configuration list for PBXNativeTarget "PoppingFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030CBA4317873DA1002E6A3A /* Debug */,
+				030CBA4417873DA1002E6A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		030CBA4517873DA1002E6A3A /* Build configuration list for PBXNativeTarget "PoppingFreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030CBA4617873DA1002E6A3A /* Debug */,
+				030CBA4717873DA1002E6A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030CB9EE17873DA0002E6A3A /* Project object */;
+}
