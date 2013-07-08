@@ -31,6 +31,8 @@
 		030CBA3417873DA1002E6A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB9FB17873DA0002E6A3A /* Foundation.framework */; };
 		030CBA3C17873DA1002E6A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA3A17873DA1002E6A3A /* InfoPlist.strings */; };
 		030CBA3F17873DA1002E6A3A /* PoppingFreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030CBA3E17873DA1002E6A3A /* PoppingFreshTests.m */; };
+		030CBA4B17873EB2002E6A3A /* JSPickerContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030CBA4917873EB2002E6A3A /* JSPickerContentController.m */; };
+		030CBA4C17873EB2002E6A3A /* JSPickerContentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030CBA4A17873EB2002E6A3A /* JSPickerContentController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,9 @@
 		030CBA3B17873DA1002E6A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		030CBA3D17873DA1002E6A3A /* PoppingFreshTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoppingFreshTests.h; sourceTree = "<group>"; };
 		030CBA3E17873DA1002E6A3A /* PoppingFreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoppingFreshTests.m; sourceTree = "<group>"; };
+		030CBA4817873EB2002E6A3A /* JSPickerContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPickerContentController.h; sourceTree = "<group>"; };
+		030CBA4917873EB2002E6A3A /* JSPickerContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPickerContentController.m; sourceTree = "<group>"; };
+		030CBA4A17873EB2002E6A3A /* JSPickerContentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPickerContentController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +154,9 @@
 				030CBA2517873DA1002E6A3A /* JSSecondViewController_iPhone.xib */,
 				030CBA2817873DA1002E6A3A /* JSSecondViewController_iPad.xib */,
 				030CBA0017873DA0002E6A3A /* Supporting Files */,
+				030CBA4817873EB2002E6A3A /* JSPickerContentController.h */,
+				030CBA4917873EB2002E6A3A /* JSPickerContentController.m */,
+				030CBA4A17873EB2002E6A3A /* JSPickerContentController.xib */,
 			);
 			path = PoppingFresh;
 			sourceTree = "<group>";
@@ -270,6 +278,7 @@
 				030CBA2417873DA1002E6A3A /* JSFirstViewController_iPad.xib in Resources */,
 				030CBA2717873DA1002E6A3A /* JSSecondViewController_iPhone.xib in Resources */,
 				030CBA2A17873DA1002E6A3A /* JSSecondViewController_iPad.xib in Resources */,
+				030CBA4C17873EB2002E6A3A /* JSPickerContentController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +317,7 @@
 				030CBA0A17873DA1002E6A3A /* JSAppDelegate.m in Sources */,
 				030CBA1317873DA1002E6A3A /* JSFirstViewController.m in Sources */,
 				030CBA1A17873DA1002E6A3A /* JSSecondViewController.m in Sources */,
+				030CBA4B17873EB2002E6A3A /* JSPickerContentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,10 +450,16 @@
 		030CBA4317873DA1002E6A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					i386,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoppingFresh/PoppingFresh-Prefix.pch";
 				INFOPLIST_FILE = "PoppingFresh/PoppingFresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -454,7 +470,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoppingFresh/PoppingFresh-Prefix.pch";
 				INFOPLIST_FILE = "PoppingFresh/PoppingFresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface JSFirstViewController : UIViewController
+
+
+@property (retain, nonatomic) UIPopoverController *myPopoverController;
+
+
+@property (retain, nonatomic) IBOutlet UIButton *showPopoverButton;
+
+- (IBAction)didTouchShowPopoverButton:(id)sender;
 
 @end

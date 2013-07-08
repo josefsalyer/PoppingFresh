@@ -7,12 +7,16 @@
 //
 
 #import "JSFirstViewController.h"
+#import "JSPickerContentController.h"
 
 @interface JSFirstViewController ()
 
 @end
 
+
 @implementation JSFirstViewController
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -20,6 +24,22 @@
     if (self) {
         self.title = NSLocalizedString(@"First", @"First");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        
+        
+        JSPickerContentController *pickerContentController = [[JSPickerContentController alloc] initWithNibName:@"JSPickerContentController" bundle:[NSBundle mainBundle]];
+        
+        
+        
+        
+
+        self.myPopoverController = [[UIPopoverController alloc] initWithContentViewController:pickerContentController];
+    
+        [[self myPopoverController] setPopoverContentSize:CGSizeMake(350.0f, 350.0f)];
+        
+        
+        
+        
+        [pickerContentController release];
     }
     return self;
 }
@@ -28,6 +48,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,4 +57,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc
+{
+    [_myPopoverController release];
+    [_showPopoverButton release];
+    [super dealloc];
+}
+- (IBAction)didTouchShowPopoverButton:(id)sender
+{
+   
+    
+    [[self myPopoverController] presentPopoverFromRect:[[self showPopoverButton] frame] inView:[self view] permittedArrowDirections:UIPopoverArrowDirectionRight animated:YES];
+}
 @end
